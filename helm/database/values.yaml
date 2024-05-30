@@ -1,0 +1,9 @@
+image:
+  repository: your-docker-repo/database
+  tag: latest
+  pullPolicy: IfNotPresent
+
+persistence:
+  enabled: true
+  accessMode: ReadWriteOnce
+  size: 10Gi
